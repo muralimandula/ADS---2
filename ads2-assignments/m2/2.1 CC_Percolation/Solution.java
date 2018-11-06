@@ -26,7 +26,7 @@ public final class Solution {
             int y = Integer.parseInt(tokens[1]);
             percolateObj.open(x, y);
         }
-        System.out.println(percolateObj.percolates() &&
-                         percolateObj.numberOfOpenSites() != 0);
+        System.out.println(percolateObj.percolates()
+            && percolateObj.numberOfOpenSites() != 0);
     }
 }
