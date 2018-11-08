@@ -262,12 +262,7 @@ Starting audit...
 Audit done.
 Checkstyle ends with 47 errors.
 Starting audit...
-[ERROR] E:\MSIT\ADS---2\ads2-assignments\m8\1. Shortest Paths\Solution.java:6:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] E:\MSIT\ADS---2\ads2-assignments\m8\1. Shortest Paths\Solution.java:6:12: Variable 'root' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] E:\MSIT\ADS---2\ads2-assignments\m8\1. Shortest Paths\Solution.java:14:3: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] E:\MSIT\ADS---2\ads2-assignments\m8\1. Shortest Paths\Solution.java:14:24: Parameter str should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 4 errors.
 Starting audit...
 [ERROR] E:\MSIT\ADS---2\ads2-assignments\m8\1. Shortest Paths\SP.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] E:\MSIT\ADS---2\ads2-assignments\m8\1. Shortest Paths\SP.java:1: Missing a Javadoc comment. [JavadocType]

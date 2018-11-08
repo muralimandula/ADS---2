@@ -3,15 +3,24 @@ import java.util.Scanner;
  * Class for solution.
  */
 public final class Solution {
-  String[] root;
+  /**
+   * root array.
+   */
+  private String[] root;
   /**
    * Constructs the object.
    */
   private Solution() {
     // unused
   }
-
-  private int getIndex(String str) {
+  /**
+   * Gets the index.
+   *
+   * @param      str   The string
+   *
+   * @return     The index.
+   */
+  private int getIndex(final String str) {
     int index = 0;
     for (int i = 0; i < root.length; i++) {
       if (str.equals(root[i])) {
