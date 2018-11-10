@@ -1,0 +1,23 @@
+Starting audit...
+Audit done.
+Starting audit...
+Audit done.
+Starting audit...
+Audit done.
+Starting audit...
+[ERROR] E:\MSIT\ADS---2\ads2-assignments\m12\ADS-2_Exam-2\EdgeWeightedGraph.java:110: Line is longer than 80 characters (found 93). [LineLength]
+Audit done.
+Checkstyle ends with 1 errors.
+Starting audit...
+Audit done.
+Starting audit...
+[ERROR] E:\MSIT\ADS---2\ads2-assignments\m12\ADS-2_Exam-2\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] E:\MSIT\ADS---2\ads2-assignments\m12\ADS-2_Exam-2\Solution.java:5: Class Solution should be declared as final. [FinalClass]
+[ERROR] E:\MSIT\ADS---2\ads2-assignments\m12\ADS-2_Exam-2\Solution.java:54: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] E:\MSIT\ADS---2\ads2-assignments\m12\ADS-2_Exam-2\Solution.java:67: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] E:\MSIT\ADS---2\ads2-assignments\m12\ADS-2_Exam-2\Solution.java:69: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] E:\MSIT\ADS---2\ads2-assignments\m12\ADS-2_Exam-2\Solution.java:78:70: '+' should be on a new line. [OperatorWrap]
+Audit done.
+Checkstyle ends with 6 errors.
+Starting audit...
+Audit done.
