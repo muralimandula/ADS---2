@@ -1,14 +1,24 @@
 import java.util.Scanner;
 import java.util.Arrays;
 
+/**
+ * SOlution class.
+ */
 public final class Solution {
 
+	/**
+	 * Constructs the object.
+	 */
 	private Solution() {
 		//Dummy
 	}
 
-
-	public static void main(String[] args) {
+	/**
+	 * Main Method.
+	 *
+	 * @param      args  The arguments
+	 */
+	public static void main(final String[] args) {
 		Scanner scan = new Scanner(System.in);
 
 		Quick3string obj = new Quick3string();
@@ -16,7 +26,7 @@ public final class Solution {
 		int nStrings = Integer.parseInt(scan.nextLine());
 		String[] strArray = new String[nStrings];
 
-		for(int i = 0; i < nStrings; i++) {
+		for (int i = 0; i < nStrings; i++) {
 			strArray[i] = scan.nextLine();
 		}
 		obj.sort(strArray);

@@ -1,11 +1,5 @@
 Starting audit...
-[ERROR] E:\MSIT\ADS---2\ads2-assignments\m13\Radix Sorts\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] E:\MSIT\ADS---2\ads2-assignments\m13\Radix Sorts\Solution.java:4: Missing a Javadoc comment. [JavadocType]
-[ERROR] E:\MSIT\ADS---2\ads2-assignments\m13\Radix Sorts\Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] E:\MSIT\ADS---2\ads2-assignments\m13\Radix Sorts\Solution.java:6:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] E:\MSIT\ADS---2\ads2-assignments\m13\Radix Sorts\Solution.java:11:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] E:\MSIT\ADS---2\ads2-assignments\m13\Radix Sorts\Solution.java:11:33: Parameter args should be final. [FinalParameters]
-[ERROR] E:\MSIT\ADS---2\ads2-assignments\m13\Radix Sorts\Solution.java:19:20: 'for' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\MSIT\ADS---2\ads2-assignments\m13\Radix Sorts\Solution.java:9:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 Audit done.
-Checkstyle ends with 7 errors.
+Checkstyle ends with 1 errors.
 Files to process must be specified, found 0.
