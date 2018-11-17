@@ -132,7 +132,6 @@ class T9 {
 	public Iterable<String> getAllWords(String prefix) {
 
 		TST tstObject = new TST();
-
 		//n from BST.
 		for(int i = 0; i < st.n; i++) {
 			tstObject.put(st.select(i), i);
@@ -145,33 +144,42 @@ class T9 {
 
 
 
+
 	public Iterable<String> potentialWords(String t9Signature) {
 		// your code goes here
 		return null;
 	}
 
+
+
 	// return all possibilities(words), find top k with highest frequency.
 	public Iterable<String> getSuggestions(Iterable<String> words, int k) {
 
-		BinarySearchST<String, Integer> bst2 = new BinarySearchST<String, Integer>();
-		int i = 0;
+		String[] wordFreq;
+
+		List list = new ArrayList();
+  //     	while (words.hasNext()) {
+  //           list.add(words.next());
+  //     	}
+
+  //     	Collections.sort(list);
+
 		for (String eachInput : words) {
 
 			Iterable<String> possibleWords = getAllWords(eachInput);
-
 			int j = 0;
-
 			for (String prefixed : possibleWords) {
+				// System.out.println(prefixed);
 				j++;
 			}
 
-			if (j == k) {
+			// System.out.println(eachInput + " " + j);
+			// list.add(j + " " + eachInput);
+			list.add(eachInput + " " + j);
 
-				System.out.println(eachInput);
+      		Collections.sort(list);
 
-			}
-			bst2.put(eachInput, i);
-			i++;
+
 		}
 		// your code goes here
 		return null;
