@@ -1,14 +1,5 @@
 Starting audit...
-[ERROR] E:\MSIT\ADS---2\ads2-assignments\m10\Seam Carving\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] E:\MSIT\ADS---2\ads2-assignments\m10\Seam Carving\Solution.java:7: Class Solution should be declared as final. [FinalClass]
-[ERROR] E:\MSIT\ADS---2\ads2-assignments\m10\Seam Carving\Solution.java:9:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] E:\MSIT\ADS---2\ads2-assignments\m10\Seam Carving\Solution.java:21:38: Parameter fileName should be final. [FinalParameters]
-[ERROR] E:\MSIT\ADS---2\ads2-assignments\m10\Seam Carving\Solution.java:24: Line is longer than 80 characters (found 100). [LineLength]
-[ERROR] E:\MSIT\ADS---2\ads2-assignments\m10\Seam Carving\Solution.java:111: Line is longer than 80 characters (found 96). [LineLength]
-[ERROR] E:\MSIT\ADS---2\ads2-assignments\m10\Seam Carving\Solution.java:120: Line is longer than 80 characters (found 90). [LineLength]
-[ERROR] E:\MSIT\ADS---2\ads2-assignments\m10\Seam Carving\Solution.java:139: Line is longer than 80 characters (found 97). [LineLength]
 Audit done.
-Checkstyle ends with 8 errors.
 Files to process must be specified, found 0.
 Files to process must be specified, found 0.
 Files to process must be specified, found 0.

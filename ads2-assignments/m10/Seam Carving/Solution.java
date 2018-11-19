@@ -4,38 +4,38 @@ import java.util.Arrays;
 /**
  * Class for solution.
  */
-public class Solution {
+public final class Solution {
 
-	/**
-	 * Constructs the object.
-	 */
-	private Solution() {
-		//dummy.
-	}
+    /**
+     * Constructs the object.
+     */
+    private Solution() {
+        //dummy.
+    }
 
-	/**
-	 * ENergies.
-	 *
-	 * @param      fileName  The file name
-	 */
-    public static void printEnergies(String fileName) {
+    /**
+     * ENergies.
+     *
+     * @param      fileName  The file name
+     */
+    public static void printEnergies(final String fileName) {
         Picture picture = new Picture(fileName);
         StdOut.printf("image is %d pixels wide by %d pixels high.\n",
-        							 picture.width(), picture.height());
+                                     picture.width(), picture.height());
         try {
-	        SeamCarver sc = new SeamCarver(picture);
+            SeamCarver sc = new SeamCarver(picture);
         StdOut.printf("Printing energy calculated for each pixel.\n");
 
-	        for (int row = 0; row < sc.height(); row++) {
-	            for (int col = 0; col < sc.width(); col++) {
+            for (int row = 0; row < sc.height(); row++) {
+                for (int col = 0; col < sc.width(); col++) {
 
-	                StdOut.printf("%9.0f ", sc.energy(col, row));
-	            }
-	            StdOut.println();
-	        }
-	    } catch (Exception e) {
-	    	System.out.println(e.getMessage());
-	    }
+                    StdOut.printf("%9.0f ", sc.energy(col, row));
+                }
+                StdOut.println();
+            }
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
     }
 
 
@@ -47,7 +47,7 @@ public class Solution {
      * @param      direction  The direction
      */
     public static void printSeam(final SeamCarver carver,
-    				final int[] seam, final boolean direction) {
+                    final int[] seam, final boolean direction) {
         double totalSeamEnergy = 0.0;
 
         for (int row = 0; row < carver.height(); row++) {
@@ -108,7 +108,7 @@ public class Solution {
                     String file = scan.nextLine();
                     seamCarver = new SeamCarver(new Picture("/Files/" + file));
                     System.out.println(Arrays.toString(
-                    						seamCarver.findVerticalSeam()));
+                                            seamCarver.findVerticalSeam()));
                 }
                 break;
 
@@ -117,7 +117,7 @@ public class Solution {
                     String file = scan.nextLine();
                     seamCarver = new SeamCarver(new Picture("/Files/" + file));
                     System.out.println(Arrays.toString(
-                    					seamCarver.findHorizontalSeam()));
+                                        seamCarver.findHorizontalSeam()));
                 }
                 break;
 
@@ -136,7 +136,7 @@ public class Solution {
                     String file = scan.nextLine();
                     seamCarver = new SeamCarver(new Picture("/Files/" + file));
                     seamCarver.removeHorizontalSeam(
-                    						seamCarver.findHorizontalSeam());
+                                            seamCarver.findHorizontalSeam());
                     int[] horizontalSeam = seamCarver.findHorizontalSeam();
                     seamCarver.removeHorizontalSeam(horizontalSeam);
                     printSeam(seamCarver, horizontalSeam, true);
